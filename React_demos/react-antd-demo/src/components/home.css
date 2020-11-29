@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.leftMenu {
+    width: 185px;
+    text-align: center;
+    background: #333;
+    height: 100vh;
+}
+
+#changeMenu :global(.ant-menu .ant-menu-dark) {
+    background: red;
+}
+
+/* #changeMenu,.ant-menu-submenu,.ant-menu-item{
+    background: red;
+} */
+
+#logo {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+#logo:hover {
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.ant-menu-dark {
+    background: red;
+}
+
+.super {
+    background: red;
+}
+
+.rightWrap {
+    flex: 1;
+    padding: 20px;
+}
+
+.ant-menu-dark {
+    background: red;
+}
+
+.rightBox {
+    padding: 30px;
+}
+
+/* 用户 */
+.rightWrap .ant-menu-submenu-title {
+    width: 100px;
+}
+
+.chart-box {
+    margin-top: 30px;
+}
+
+.ege {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.lastPic {
+    display: block;
+    margin: 16% auto 0;
+}
+
+.ani-box {
+    text-align: center;
+}
+
+.doclist {
+    line-height: 40px;
+}
