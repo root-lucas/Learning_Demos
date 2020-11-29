@@ -1,16 +1,22 @@
-# demo1
+# Flutter_demos
 
-A new Flutter project.
+这是个Flutter实现的各种UI小demos
 
-## Getting Started
+## testing environment
 
-This project is a starting point for a Flutter application.
+```sh
+Flutter 1.22.0 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision d408d302e2 (9 weeks ago) • 2020-09-29 11:49:17 -0700
+Engine • revision 5babba6c4d
+Tools • Dart 2.10.0
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Usage
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+`/lib/`目录下有很多`main.xx.dart`文件，每一个文件就是一个小demo，想看不同的UI demo只需复制其他的文件粘贴至`main.dart`即可。
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+flutter packages get  # 获取依赖
+flutter run 		 # 运行
+```
+
