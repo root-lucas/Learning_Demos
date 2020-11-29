@@ -1,0 +1,29 @@
+.iconfont {
+    font-size: 26px;
+}
+
+.tabbar-children {
+    margin-bottom: 50px;
+}
+
+.tabbar {
+    height: 50px;
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    border: 1px solid #cccccc;
+    padding: 5px 0;
+    text-align: center;
+}
+.tabbar-content {
+    display: flex;
+}
+
+.tabbar-item {
+    flex: 1;
+}
+
+.active {
+    color: red !important;
+}
